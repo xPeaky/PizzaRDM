@@ -1,0 +1,13 @@
+﻿<Properties StartupConfiguration="{A952F412-505C-4A6F-9F1F-ED366073E6FD}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="RDM_Decrypt\Program.cs">
+    <Files>
+      <File FileName="RDM_Decrypt\Program.cs" Line="30" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.RDM__Decrypt PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

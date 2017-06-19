@@ -1,0 +1,12 @@
+C:\Users\lol\Documents\Projects\RDM_Decrypt\RDM_Decrypt\bin\Debug\RDM_Decrypt.exe
+C:\Users\lol\Documents\Projects\RDM_Decrypt\RDM_Decrypt\bin\Debug\RDM_Decrypt.pdb
+C:\Users\lol\Documents\Projects\RDM_Decrypt\RDM_Decrypt\bin\Debug\mscorlib.dll
+C:\Users\lol\Documents\Projects\RDM_Decrypt\RDM_Decrypt\bin\Debug\fr\mscorlib.resources.dll
+C:\Users\lol\Documents\Projects\RDM_Decrypt\RDM_Decrypt\bin\Debug\normidna.nlp
+C:\Users\lol\Documents\Projects\RDM_Decrypt\RDM_Decrypt\bin\Debug\normnfc.nlp
+C:\Users\lol\Documents\Projects\RDM_Decrypt\RDM_Decrypt\bin\Debug\normnfd.nlp
+C:\Users\lol\Documents\Projects\RDM_Decrypt\RDM_Decrypt\bin\Debug\normnfkc.nlp
+C:\Users\lol\Documents\Projects\RDM_Decrypt\RDM_Decrypt\bin\Debug\normnfkd.nlp
+C:\Users\lol\Documents\Projects\RDM_Decrypt\RDM_Decrypt\obj\x86\Debug\RDM_Decrypt.csprojResolveAssemblyReference.cache
+C:\Users\lol\Documents\Projects\RDM_Decrypt\RDM_Decrypt\obj\x86\Debug\RDM_Decrypt.exe
+C:\Users\lol\Documents\Projects\RDM_Decrypt\RDM_Decrypt\obj\x86\Debug\RDM_Decrypt.pdb
