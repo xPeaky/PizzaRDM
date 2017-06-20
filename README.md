@@ -21,5 +21,4 @@ lfc["contentLoaderInfo"]["addEventListener"]("complete",function(param1:*):void
 
 #### TODO
 - [x] Décodage des définitions
-- [ ] Décompilation du fichier SWF
 - [ ] Décodage automatique du fichier HumanCheck.as
