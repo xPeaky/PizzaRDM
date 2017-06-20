@@ -42,5 +42,5 @@ if((dofusClassDesc.@name.toString() == "Dofus" && dofusClassDesc.@base.toString(
 * Entrer le chemin de sortie du fichier HumanCheck.as décodé
 
 #### TODO
-- [x] Décryptage des strings
-- [x] Décryptage automatique du fichier HumanCheck.as
+- [x] Décodage des strings
+- [x] Décodage automatique du fichier HumanCheck.as
