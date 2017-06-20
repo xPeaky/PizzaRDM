@@ -16,9 +16,33 @@ lfc["contentLoaderInfo"]["addEventListener"]("complete",function(param1:*):void
 
 #### Fonctionnement
 * Lancer le programme RDM_Decrypt.exe
-* Entrer un nombre comme par exemple: -1820302793
-* Le programme retourne le contenu décodé. Ici: flash.display.Loader
+* Entrer le chemin du fichier HumanCheck.as
+* Entrer le chemin de sortie du fichier HumanCheck.as décodé
 
 #### TODO
 - [x] Décodage des définitions
-- [ ] Décodage automatique du fichier HumanCheck.as
+- [x] Décodage automatique du fichier HumanCheck.as
+
+## DecRDM
+#### Description
+Ce tool vous permet de décoder ce type de code:
+```ActionScript
+if((dofusClassDesc.@name.toString() == dec("PFmDRk0=","eDblMz4=") && dofusClassDesc.@base.toString() == dec("WayFi0h6xE3NXVOhncIaB9BW11la","P8Dk+CBUoCS+LQ==") && dofusClassDesc.@isDynamic.toString() == "false" && dofusClassDesc.@isFinal.toString() == "false" && dofusClassDesc.@isStatic.toString() == "false" && _loc3_.@declaredBy.toString() == dec("VHURGC9Ia1ZHKl54CVF9ImZMRDZTYD8JLQNsSw==","Mhlwa0dmDz80Wg==")) != function():Boolean
+            {
+```
+
+en
+
+```ActionScript
+if((dofusClassDesc.@name.toString() == "Dofus" && dofusClassDesc.@base.toString() == "flash.display::Sprite" && dofusClassDesc.@isDynamic.toString() == "false" && dofusClassDesc.@isFinal.toString() == "false" && dofusClassDesc.@isStatic.toString() == "false" && _loc3_.@declaredBy.toString() == "flash.display::DisplayObject") != function():Boolean
+            {
+```
+            
+#### Fonctionnement
+* Lancer le programme DecRDM.exe
+* Entrer le chemin du fichier HumanCheck.as
+* Entrer le chemin de sortie du fichier HumanCheck.as décodé
+
+#### TODO
+- [x] Décodage des strings
+- [x] Décodage automatique du fichier HumanCheck.as
