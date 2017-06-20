@@ -1,0 +1,12 @@
+C:\Users\lol\Documents\Projects\DecRDM\DecRDM\bin\Debug\DecRDM.exe
+C:\Users\lol\Documents\Projects\DecRDM\DecRDM\bin\Debug\DecRDM.pdb
+C:\Users\lol\Documents\Projects\DecRDM\DecRDM\bin\Debug\mscorlib.dll
+C:\Users\lol\Documents\Projects\DecRDM\DecRDM\bin\Debug\fr\mscorlib.resources.dll
+C:\Users\lol\Documents\Projects\DecRDM\DecRDM\bin\Debug\normidna.nlp
+C:\Users\lol\Documents\Projects\DecRDM\DecRDM\bin\Debug\normnfc.nlp
+C:\Users\lol\Documents\Projects\DecRDM\DecRDM\bin\Debug\normnfd.nlp
+C:\Users\lol\Documents\Projects\DecRDM\DecRDM\bin\Debug\normnfkc.nlp
+C:\Users\lol\Documents\Projects\DecRDM\DecRDM\bin\Debug\normnfkd.nlp
+C:\Users\lol\Documents\Projects\DecRDM\DecRDM\obj\x86\Debug\DecRDM.csprojResolveAssemblyReference.cache
+C:\Users\lol\Documents\Projects\DecRDM\DecRDM\obj\x86\Debug\DecRDM.exe
+C:\Users\lol\Documents\Projects\DecRDM\DecRDM\obj\x86\Debug\DecRDM.pdb
