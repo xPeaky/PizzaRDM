@@ -73,6 +73,6 @@ var _loc12_:TLSPad = new TLSPad();
 * Entrer le chemin du fichier HumanCheck.as
 * Entrer le chemin de sortie du fichier HumanCheck.as renommé
 
-#### TODO
+#### TODO
 - [x] Identification des classes
 - [x] Renommer les classes automatiquement
