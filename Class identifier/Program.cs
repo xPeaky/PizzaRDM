@@ -8,8 +8,8 @@ public class Class_identifier
 
     public static void Main()
     {
-        //Console.Write("Chemin du fichier HumanCheck.as: ");
-		string filePath = "/home/anonymouse/Fichiers/PizzaRDM/Repo/PizzaRDM/Resources/Scripts/HumanCheck_Decoded.as";
+        Console.Write("Chemin du fichier HumanCheck.as: ");
+		string filePath = Console.ReadLine();
 		if (!System.IO.File.Exists(filePath))
 		{
 			Console.WriteLine("Ce fichier n'existe pas !");
@@ -25,10 +25,11 @@ public class Class_identifier
 			var replaced = Replace(content, identified);
 			if (content == replaced) { Console.WriteLine("Error"); }
 			else
-				System.IO.File.WriteAllText("/home/anonymouse/Fichiers/PizzaRDM/Repo/PizzaRDM/Resources/Scripts/HumanCheck_Renamed.as", Replace(content, identified));
-			/*Console.Write("Chemin du fichier décodé: ");
-			filePath = Console.ReadLine();
-			System.IO.File.WriteAllText(filePath, result);*/
+			{
+				Console.Write("Chemin du fichier décodé: ");
+				filePath = Console.ReadLine();
+				System.IO.File.WriteAllText(filePath, replaced);
+			}
 		}
     }
 
