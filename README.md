@@ -82,13 +82,13 @@ var _loc12_:TLSPad = new TLSPad();
 Ce tool vous permet de remplacer les fonctions comme ceci:
 ```ActionScript
  var _AESKey:Class = lfc["contentLoaderInfo"]["applicationDomain"]["getDefinition"]("com.hurlant.crypto.symmetric.AESKey") as Class;
-           ```
+```
            
 en
 
 ```ActionScript
 var _AESKey:Class = lfc.contentLoaderInfo.applicationDomain.getDefinition("com.hurlant.crypto.symmetric.AESKey") as Class;
-            ```
+```
 
 #### Fonctionnement
 * Lancer le programme Program.exe
