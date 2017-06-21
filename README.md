@@ -46,3 +46,36 @@ if((dofusClassDesc.@name.toString() == "Dofus" && dofusClassDesc.@base.toString(
 #### TODO
 - [x] Décodage des strings
 - [x] Décodage automatique du fichier HumanCheck.as
+
+## ClassIdentifier
+#### Description
+Ce tool vous permet d'identifier les classes avec le nom obfu:
+```ActionScript
+var _loc12_:_SDEDEOIEOML = new _SDEDEOIEOML();
+         var _loc13_:_SMOHLXWELH = new _SMOHLXWELH(new _SEWLWDOGGEI(new _SEXGEGLIGWO(_loc11_),_loc12_));
+         var _loc14_:ByteArray = new getDefinitionByName("flash.utils.ByteArray")();
+         _loc14_["writeUTF"](!!_loc2_["getInstance"]()["gameServerTicket"]?_loc2_["getInstance"]()["gameServerTicket"]:"");
+         _loc14_["writeBytes"](getDefinitionByName("by.blooddy.crypto.MD5")["hash"](_loc10_));
+```
+
+en
+
+```ActionScript
+var _loc12_:TLSPad = new TLSPad();
+         var _loc13_:SimpleIVMode = new SimpleIVMode(new CBCMode(new AESKey(_loc11_),_loc12_));
+         var _loc14_:ByteArray = new getDefinitionByName("flash.utils.ByteArray")();
+         _loc14_["writeUTF"](!!_loc2_["getInstance"]()["gameServerTicket"]?_loc2_["getInstance"]()["gameServerTicket"]:"");
+         _loc14_["writeBytes"](getDefinitionByName("by.blooddy.crypto.MD5")["hash"](_loc10_));
+```
+
+#### Fonctionnement
+* Lancer le programme Program.exe
+* Entrer le chemin du fichier HumanCheck.as
+* Entrer le chemin de sortie du fichier HumanCheck.as renommé
+
+#### TODO
+- [x] Identification des classes
+- [x] Renommer les classes automatiquement
+
+
+WTF AN**AMA: https://pastebin.com/iH4fCdC1
