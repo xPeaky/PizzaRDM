@@ -77,5 +77,26 @@ var _loc12_:TLSPad = new TLSPad();
 - [x] Identification des classes
 - [x] Renommer les classes automatiquement
 
+## FunctionReplace
+#### Description
+Ce tool vous permet de remplacer les fonctions comme ceci:
+```ActionScript
+ var _AESKey:Class = lfc["contentLoaderInfo"]["applicationDomain"]["getDefinition"]("com.hurlant.crypto.symmetric.AESKey") as Class;
+           ```
+           
+en
+
+```ActionScript
+var _AESKey:Class = lfc.contentLoaderInfo.applicationDomain.getDefinition("com.hurlant.crypto.symmetric.AESKey") as Class;
+            ```
+
+#### Fonctionnement
+* Lancer le programme Program.exe
+* Entrer le chemin du fichier HumanCheck.as
+* Entrer le chemin de sortie du fichier HumanCheck.as avec les fonctions remplacées
+
+#### TODO
+- [x] Remplacé le nom des fonctions
+- [x] Automatiser
 
 WTF AN**AMA: https://pastebin.com/iH4fCdC1
