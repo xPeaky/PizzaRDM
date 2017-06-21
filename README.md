@@ -76,3 +76,6 @@ var _loc12_:TLSPad = new TLSPad();
 #### TODO
 - [x] Identification des classes
 - [x] Renommer les classes automatiquement
+
+
+WTF AN**AMA: https://pastebin.com/iH4fCdC1
